@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <UserCard></UserCard>
-      <h1> Nome: {name} </h1>
+      {name && <h1> Nome: {name} </h1>}
     </div>
   );
 }
